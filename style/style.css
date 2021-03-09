@@ -179,13 +179,13 @@ table {
     margin-bottom: 3px;
 }
 #menu-package1-img{
-    content: url("../stlye/images/menu_2_glass.jpg");
+    content: url("images/menu_2_glass.jpg");
 }
 #menu-package2-img{
-    content: url("../stlye/images/menu_33_cc.jpg");
+    content: url("images/menu_33_cc.jpg");
 }
 #menu-package3-img{
-    content: url("../stlye/images/menu_70_cc.jpg");
+    content: url("images/menu_70_cc.jpg");
 }
 .menu-package-img{
     margin-bottom: 3px;
