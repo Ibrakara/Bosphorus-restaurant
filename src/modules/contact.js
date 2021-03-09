@@ -10,31 +10,33 @@ let contactPage = function (){
     helperFunctions.createAppendElement("div", content, contactPageContainerAtt)
     let contactPageContainer = document.querySelector("#contactpage-container")
 
-    let contactGoogleMapAtt = {
-        "id": "contact-map"
-    }
-    helperFunctions.createAppendElement("div", contactPageContainer, contactGoogleMapAtt)
+    helperFunctions.createAppendElement("div", contactPageContainer, {"id": "contact-main-container"})
+    let contactMainContainer = document.querySelector("#contact-main-container")
 
     let contactLocationAtt = {
-        "id": "contact-address"
+        "id": "contact-address",
+        "class": "contact-content-div"
     }
-    let contactLocationText = "Avrupa yakası Bebek... N:1, Postal: 34000"
-    helperFunctions.createAppendElement("div", contactPageContainer, contactLocationAtt, contactLocationText)
+    let contactLocationText = "Address: Avrupa Yakası Bebek... N:1, Postal: 34000"
+    helperFunctions.createAppendElement("div", contactMainContainer, contactLocationAtt, contactLocationText)
 
     let contactWorkingHoursAtt = {
-        "id": "contact-workinghours"
+        "id": "contact-workinghours",
+        "class": "contact-content-div"
     }
-    let contactWorkingHoursText = `Tue – Thu, 2 pm – 2 pm
+    let contactWorkingHoursText = `Working Hours:
+    Tue – Thu, 2 pm – 2 pm
     Fri – Sun, 11 am – 4 am
-    Closed Mondays`
-    helperFunctions.createAppendElement("div", contactPageContainer, contactWorkingHoursAtt, contactWorkingHoursText)
+    We are Closed on Mondays`
+    helperFunctions.createAppendElement("div", contactMainContainer, contactWorkingHoursAtt, contactWorkingHoursText)
 
     let contactNumberEmailAtt = {
         "id": "contact-number-email",
+        "class": "contact-content-div"
     }
-    let contactNumberEmaailText = `0(212)111 11 11
-    BOSphoRusRest.Aurant@istmail.com` 
-    helperFunctions.createAppendElement("div", contactPageContainer, contactNumberEmailAtt, contactNumberEmaailText)
+    let contactNumberEmaailText = `Phone: 0(212)111 11 11
+    Mail: BosphoRusRestaurant@istmail.com.sv` 
+    helperFunctions.createAppendElement("div", contactMainContainer, contactNumberEmailAtt, contactNumberEmaailText)
     
 }
 export{contactPage}

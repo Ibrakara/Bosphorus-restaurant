@@ -22,7 +22,8 @@ let headerRender = function(){
     let headerNav = document.querySelector("#header-nav")
     
     let headerHomeLinkAtt = {
-        "id": "header-home-link"
+        "id": "header-home-link",
+        'class': 'header-link'
     }
     helperFunctions.createAppendElement("button", headerNav, headerHomeLinkAtt, "Home")
     let headerHomeLink = document.querySelector("#header-home-link")
@@ -37,7 +38,8 @@ let headerRender = function(){
     
 
     let headerMenuLinkAtt = {
-        "id": "header-about-link"
+        "id": "header-about-link",
+        'class': 'header-link'
     }
     helperFunctions.createAppendElement("button", headerNav, headerMenuLinkAtt, "Menu")
     let headerMenuLink = document.querySelector("#header-about-link")
@@ -45,14 +47,14 @@ let headerRender = function(){
         document.querySelectorAll(".mainpage-container").forEach((e) => e.remove())
         document.querySelector("#footer-container").remove()
         document.querySelector("#header").remove()
-        console.log(headerMenuLink)
         headerRender()
         menuPage()
         footer()
     })
 
     let headerContactLinkAtt = {
-        "id": "header-contact-link"
+        "id": "header-contact-link",
+        'class': 'header-link'
     }
     helperFunctions.createAppendElement("button", headerNav, headerContactLinkAtt, "Contact")
     let headerContactLink = document.querySelector("#header-contact-link")

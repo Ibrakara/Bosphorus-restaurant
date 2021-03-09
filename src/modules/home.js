@@ -37,17 +37,9 @@ let homePage = function(){
     let main = document.querySelector("#main-container")
 
     let mainTitleAtt = {
-        "id": "nav-main-title",
-        "textContent": "Bosphorus Restaurant"
+        "id": "nav-main-title"
     }
     helperFunctions.createAppendElement("h1", main, mainTitleAtt, "Bosphorus Restaurant")
-
-    let mainImgAtt = {
-        "id": "main-img",
-        "src": "https://media.timeout.com/images/105416933/630/472/image.jpg",
-        "alt": "Restauran Image"
-    }
-    helperFunctions.createAppendElement("img", main, mainImgAtt)
 
     let articleAtt = {
         "id": "article-container"
@@ -66,8 +58,7 @@ let homePage = function(){
     }        
     let articleParaText = "We are at the very edge of the Europe, you can enjoy the view of Bosphorous and Asia continent while getting the best service, tradational Turkish cousine with Turkish hospitality."
     helperFunctions.createAppendElement("p", article, articleParaAtt, articleParaText)
-    let mainContent = (function(){
-    })()
+    
     
 }
 
