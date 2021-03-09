@@ -1,1 +1,0 @@
-This is a mock restaurant page from Istanbul-Turkey, prepared with webpack.
