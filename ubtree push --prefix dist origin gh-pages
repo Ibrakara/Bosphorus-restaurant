@@ -1,0 +1,47 @@
+[33mcommit 12eda615f41921928baf0480f620c0a53f6850af[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Tue Mar 9 17:11:56 2021 +0300
+
+    Add style to menu images.
+
+[33mcommit f6518859e33856f4212964815a1f8a93a1d8c8e1[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Tue Mar 9 16:44:27 2021 +0300
+
+    Add all project files.
+
+[33mcommit 61cf233c23109a8c6de1a0c8bb8cee5db5fa0fc8[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Tue Mar 9 16:18:41 2021 +0300
+
+    Add README file.
+
+[33mcommit 34459387ed39929cfdec1286d7af643673403b2a[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Tue Mar 9 16:09:31 2021 +0300
+
+    Correct the stylesheet name, link and image links.
+
+[33mcommit 2276c4bd4153f97af93d44704ef163aae9d90037[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Tue Mar 9 15:50:29 2021 +0300
+
+    Initial dist subtree commit
+
+[33mcommit 9e33b2cb395fb52a850ee5bf629b36b3311e543c[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Tue Mar 9 15:45:27 2021 +0300
+
+    Initial dist subtree commit
+
+[33mcommit ecf232b4580ce3abb5f39ee4d580b81608c8c90a[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Tue Mar 9 15:39:15 2021 +0300
+
+    Add styles, remove and add features, add images.
+
+[33mcommit 0e62e626e3d61f4d128d16751e38eddcd9dc07f8[m
+Author: Ibrakara <ibr.karaduman@gmail.com>
+Date:   Sat Mar 6 13:08:04 2021 +0300
+
+    First commit, add page functionality.
